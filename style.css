@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 64px;
+    background-color: #333;
+}
+
+.header__title {
+    list-style: none;
+    vertical-align: middle;
+    margin-right: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.page__title {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    line-height: 64px;
+}
+
+.link__page {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color:gold;
+    text-align: center;
+}
